@@ -14,12 +14,8 @@ app.get('/users',(req, res) => {
 
 });
 
-app.get('/users/admin', (req, res)=>{
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'application/json');
-    res.json({
-            users:[]
-    });
+app.post('/users', (req, res)=>{
+    res.json(req.body);
 })
 
 
