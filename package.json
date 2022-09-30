@@ -1,0 +1,28 @@
+{
+  "name": "restfull",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogolima013/project.nodejs.git"
+  },
+  "author": "Diogo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogolima013/project.nodejs/issues"
+  },
+  "homepage": "https://github.com/diogolima013/project.nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "consign": "^0.1.6",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "nedb": "^1.8.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {},
+  "description": ""
+}
